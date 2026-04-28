@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
+import { Link } from "@inertiajs/vue3";
 import NewsCard from "@/components/NewsCard.vue";
 </script>
 

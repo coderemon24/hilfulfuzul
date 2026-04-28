@@ -43,9 +43,12 @@
     <button
       v-show="scrollButton"
       @click="scrollToTop"
-      class="h-[50px] w-[50px] bg-green-600 text-white rounded-full flex items-center justify-center fixed bottom-5 right-5"
+      class="h-[50px] w-[50px] bg-green-600 text-white 
+      rounded-full flex items-center justify-center 
+      fixed bottom-5 right-5 text-xl cursor-pointer
+      transition-opacity duration-300 opacity-90 hover:opacity-100"
     >
-      ↑
+        <i class="fa-solid fa-arrow-up"></i>
     </button>
 
   </footer>

@@ -139,10 +139,10 @@
 
                             <Link
                                 :href="item.path"
-                                class="transition-all ease-in-out duration-300 py-3 md:px-6 pl-3 w-full block"
+                                class="transition-all relative ease-in-out duration-300 py-3 md:px-6 pl-3 w-full block"
                                 :class="isActive(item.path)
-                                    ? 'activeRoute'
-                                    : 'hover:bg-green-700 hover:text-white md:hover:bg-green-100/20 md:hover:text-white'"
+                                    ?  activeClass
+                                    : inactiveClass"
                                 @click="closeMenu"
                             >
                                 {{ item.label }}
@@ -166,6 +166,26 @@ import HadithCard from '@/components/HadithCard.vue'
 
 import { ref } from 'vue'
 import { Link, usePage } from '@inertiajs/vue3'
+
+const activeClass = `
+before:content-['']
+before:absolute 
+before:w-full 
+before:h-1 
+md:before:bg-white 
+before:bg-green-700 
+before:-bottom-2 
+before:left-0 
+before:rounded-t-3xl
+`;
+
+const inactiveClass = `
+hover:bg-green-700 
+hover:text-white 
+md:hover:bg-green-100/20 
+md:hover:text-white
+transition-colors duration-300 rounded-md
+`;
 
 const isOpen = ref(false)
 const page = usePage()

@@ -4,6 +4,7 @@ import '../css/app.css';
 import { createInertiaApp } from '@inertiajs/vue3'
 import { createApp, h } from 'vue'
 import { createHead } from '@vueuse/head'
+import Layout from '@/layouts/Layout.vue';
 
 const head = createHead()
 
@@ -11,7 +12,7 @@ createInertiaApp({
     resolve: name => {
         const pages = import.meta.glob('./pages/**/*.vue', { eager: true });
         const page = pages[`./pages/${name}.vue`];
-        // page.default.layout = page.default.layout || DefaultLayout;
+        page.default.layout = page.default.layout || Layout;
         return page;
     },
 

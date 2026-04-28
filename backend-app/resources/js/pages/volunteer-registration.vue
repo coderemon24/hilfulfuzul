@@ -4,9 +4,9 @@
 
       <!-- Breadcrumb -->
       <div class="breadcrumb flex items-center gap-2 text-sm mb-6">
-        <RouterLink class="text-green-700 hover:underline" to="/">
+        <Link class="text-green-700 hover:underline" href="/">
           হোম
-        </RouterLink>
+        </Link>
         <i class="fa-solid fa-chevron-right text-gray-500"></i>
         <span class="text-gray-600">স্বেচ্ছাসেবী নিবন্ধন</span>
       </div>
@@ -32,7 +32,6 @@
             <!-- LEFT SIDE -->
             <div class="flex flex-col gap-6 md:w-1/2">
 
-              <!-- Name -->
               <div class="w-full flex flex-col gap-2">
                 <label class="flex items-center gap-1 text-md">
                   নাম <span class="text-red-600 text-xl">*</span>
@@ -40,37 +39,31 @@
                 <input type="text" class="input" placeholder="মোঃ ইমন আহমেদ">
               </div>
 
-              <!-- Checkbox -->
               <div class="w-full flex flex-row-reverse gap-2 justify-end items-center">
                 <label class="text-md">প্রবাসী</label>
                 <input type="checkbox" class="checkbox">
               </div>
 
-              <!-- Phone -->
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">ফোন <span class="text-red-600">*</span></label>
                 <input type="number" class="input" placeholder="+880 18xx-xxxxxx">
               </div>
 
-              <!-- Email -->
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">ইমেইল</label>
                 <input type="email" class="input" placeholder="example@gmail.com">
               </div>
 
-              <!-- Facebook -->
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">ফেসবুক আইডি লিংক</label>
                 <input type="url" class="input" placeholder="https://facebook.com">
               </div>
 
-              <!-- NID -->
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">এনআইডি নম্বর</label>
                 <input type="number" class="input">
               </div>
 
-              <!-- Education -->
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">
                   শিক্ষাগত যোগ্যতা <span class="text-red-600">*</span>
@@ -78,7 +71,6 @@
                 <input type="text" class="input">
               </div>
 
-              <!-- Profession -->
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">
                   পেশা <span class="text-red-600">*</span>
@@ -91,7 +83,6 @@
             <!-- RIGHT SIDE -->
             <div class="md:w-1/2">
 
-              <!-- Volunteer Field -->
               <div class="flex flex-col gap-2">
                 <label class="text-md">
                   যে ক্ষেত্রে স্বেচ্ছাশ্রম দিতে ইচ্ছুক
@@ -100,7 +91,6 @@
                 <textarea class="input"></textarea>
               </div>
 
-              <!-- Skills -->
               <div class="flex flex-col gap-2 mt-4">
                 <label class="text-md">বিশেষ দক্ষতা</label>
                 <textarea class="input"></textarea>
@@ -108,13 +98,11 @@
 
               <span class="mt-8 block">স্থায়ী ঠিকানা</span>
 
-              <!-- District -->
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">জেলা/উপজেলা <span class="text-red-600">*</span></label>
                 <input type="text" class="input">
               </div>
 
-              <!-- Address -->
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">ঠিকানা <span class="text-red-600">*</span></label>
                 <textarea class="input"></textarea>
@@ -122,13 +110,11 @@
 
               <span class="mt-8 block">বর্তমান ঠিকানা</span>
 
-              <!-- Current District -->
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">জেলা/উপজেলা <span class="text-red-600">*</span></label>
                 <input type="text" class="input">
               </div>
 
-              <!-- Current Address -->
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">ঠিকানা <span class="text-red-600">*</span></label>
                 <textarea class="input"></textarea>
@@ -138,7 +124,6 @@
 
           </div>
 
-          <!-- Submit -->
           <div class="w-full flex">
             <button
               type="submit"
@@ -156,7 +141,7 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
+import { Link } from "@inertiajs/vue3";
 </script>
 
 <style scoped>
