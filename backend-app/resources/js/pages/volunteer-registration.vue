@@ -51,31 +51,31 @@
 
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">ইমেইল</label>
-                <input type="email" class="input" placeholder="example@gmail.com">
+                <input type="email" class="input" placeholder="ahmedemon.dev24@gmail.com">
               </div>
 
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">ফেসবুক আইডি লিংক</label>
-                <input type="url" class="input" placeholder="https://facebook.com">
+                <input type="url" class="input" placeholder="https://facebook.com/coderemon24">
               </div>
 
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">এনআইডি নম্বর</label>
-                <input type="number" class="input">
+                <input placeholder="এনআইডি নম্বর লিখুন" type="number" class="input">
               </div>
 
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">
                   শিক্ষাগত যোগ্যতা <span class="text-red-600">*</span>
                 </label>
-                <input type="text" class="input">
+                <input placeholder="শিক্ষাগত যোগ্যতা নির্বাচন করুন" type="text" class="input">
               </div>
 
               <div class="w-full flex flex-col gap-2">
                 <label class="text-md">
                   পেশা <span class="text-red-600">*</span>
                 </label>
-                <input type="text" class="input">
+                <input placeholder="পেশা নির্বাচন করুন" type="text" class="input">
               </div>
 
             </div>
@@ -88,36 +88,38 @@
                   যে ক্ষেত্রে স্বেচ্ছাশ্রম দিতে ইচ্ছুক
                   <span class="text-red-600">*</span>
                 </label>
-                <textarea class="input"></textarea>
+                <textarea placeholder="যে ক্ষেত্রে স্বেচ্ছাশ্রম দিতে ইচ্ছুক" class="input"></textarea>
               </div>
 
               <div class="flex flex-col gap-2 mt-4">
                 <label class="text-md">বিশেষ দক্ষতা</label>
-                <textarea class="input"></textarea>
+                <textarea placeholder="বিশেষ দক্ষতা লিখুন" class="input"></textarea>
               </div>
 
-              <span class="mt-8 block">স্থায়ী ঠিকানা</span>
+              <span class="mt-8 block">স্থায়ী ঠিকানা</span>
 
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">জেলা/উপজেলা <span class="text-red-600">*</span></label>
-                <input type="text" class="input">
+
+                <input placeholder="জেলা/উপজেলা" type="text" class="input">
               </div>
 
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">ঠিকানা <span class="text-red-600">*</span></label>
-                <textarea class="input"></textarea>
+                <textarea placeholder="ঠিকানা" class="input"></textarea>
               </div>
 
               <span class="mt-8 block">বর্তমান ঠিকানা</span>
 
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">জেলা/উপজেলা <span class="text-red-600">*</span></label>
-                <input type="text" class="input">
+                <!-- every placeholder in bangla -->
+                <input placeholder="জেলা/উপজেলা" type="text" class="input">
               </div>
 
               <div class="flex flex-col gap-2 mt-2">
                 <label class="text-md">ঠিকানা <span class="text-red-600">*</span></label>
-                <textarea class="input"></textarea>
+                <textarea placeholder="ঠিকানা" class="input"></textarea>
               </div>
 
             </div>
@@ -127,7 +129,7 @@
           <div class="w-full flex">
             <button
               type="submit"
-              class="w-full bg-green-700 p-2 rounded-md mt-5 text-white md:w-[25%] md:mx-auto"
+              class="w-full bg-green-700 cursor-pointer p-2 rounded-md mt-5 text-white md:w-[25%] md:mx-auto"
             >
               আপনার আবেদনটি সংরক্ষণ করুন
             </button>
