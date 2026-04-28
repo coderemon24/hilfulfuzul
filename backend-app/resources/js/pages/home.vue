@@ -1,6 +1,16 @@
+<script setup>
+import Layout from '../layouts/Layout.vue';
+
+defineOptions({
+    name: 'Home',
+    layout: Layout,
+});
+
+</script>
+
 <template>
-    <div class="p-8 bg-green-200">
-        <h1 class="text-3xl font-bold">Home</h1>
-        <p class="mt-4">Welcome to the home page!</p>
-    </div>
+        <div class="p-8 bg-green-200">
+            <h1 class="text-3xl font-bold">Home</h1>
+            <p class="mt-4 text-red-500 bg-blue-600">Welcome to the home page!</p>
+        </div>
 </template>

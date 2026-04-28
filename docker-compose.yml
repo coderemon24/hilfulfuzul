@@ -41,6 +41,17 @@ services:
       PMA_PASSWORD: ${DB_PASSWORD:-hilful_fuzul}
     ports:
       - "${PHPMYADMIN_PORT:-8081}:80"
+      
+      
+  node:
+    image: node:22
+    container_name: hilful_fuzul_node
+    working_dir: /var/www/html
+    volumes:
+      - ./backend-app:/var/www/html
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npm run dev"
 
 volumes:
   dbdata:
