@@ -20,13 +20,13 @@
 </template>
 
 <script setup lang="ts">
-import MenuItem from '@/components/AppMenu/MenuItem.vue';
+import MenuItem from '@/components/Admin/AppMenu/MenuItem.vue';
 import { menuItemActive } from '@/helpers/menu';
 import type { SubMenus } from '@/types/menu';
 import { Icon } from '@iconify/vue';
-import router from '@/router';
+// import router from '@/router';
 
 defineProps<SubMenus>();
 
-const currentRouteName = router.currentRoute.value.name;
+// const currentRouteName = router.currentRoute.value.name;
 </script>

@@ -244,14 +244,14 @@
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 import {ref, watch, reactive} from 'vue'
 import simplebar from 'simplebar-vue'
-import DropDown from '@/components/DropDown.vue'
+import DropDown from '@/components/Admin/DropDown.vue'
 
-import {chatMsg, dropdownItem} from '@/views/apps/chat/components/data'
+import {chatMsg, dropdownItem} from '@/pages/admin/apps/chat/components/data'
 
-import ContactOffcanvas from '@/views/apps/chat/components/ContactOffcanvas.vue'
-import ProfileOffcanvas from '@/views/apps/chat/components/ProfileOffcanvas.vue'
+import ContactOffcanvas from '@/pages/admin/apps/chat/components/ContactOffcanvas.vue'
+import ProfileOffcanvas from '@/pages/admin/apps/chat/components/ProfileOffcanvas.vue'
 
-import avatar4 from '@/assets/images/users/avatar-4.jpg'
+import avatar4 from '@/assets/admin/images/users/avatar-4.jpg'
 
 import {object, string} from 'yup'
 

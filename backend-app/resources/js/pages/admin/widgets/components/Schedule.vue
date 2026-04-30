@@ -35,6 +35,6 @@
 </template>
 
 <script setup lang="ts">
-import { scheduleData } from '@/views/widgets/components/data';
-import DropDown from '@/components/DropDown.vue';
+import { scheduleData } from '@/pages/admin/widgets/components/data';
+import DropDown from '@/components/Admin/DropDown.vue';
 </script>

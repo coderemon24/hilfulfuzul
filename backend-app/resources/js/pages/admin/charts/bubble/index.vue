@@ -25,10 +25,10 @@
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
-import UIComponentCard from '@/components/UIComponentCard.vue'
-import ApexChart from '@/components/ApexChart.vue'
-import {simpleChart, bubbleChart3D} from '@/views/charts/bubble/data'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue'
+import ApexChart from '@/components/Admin/ApexChart.vue'
+import {simpleChart, bubbleChart3D} from '@/pages/admin/charts/bubble/data'
 
 const anchorNavigation = [
   {

@@ -212,11 +212,11 @@
 <script setup lang="ts">
 import {ref, computed} from 'vue'
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import MailCard from '@/views/apps/email/components/MailCard.vue'
-import TabPane from '@/views/apps/email/components/TabPane.vue'
-import EmailSidebar from '@/views/apps/email/components/EmailSidebar.vue'
-import EmailRead from '@/views/apps/email/components/EmailRead.vue'
-import {emailData, emailTabs} from '@/views/apps/email/components/data'
+import MailCard from '@/pages/admin/apps/email/components/MailCard.vue'
+import TabPane from '@/pages/admin/apps/email/components/TabPane.vue'
+import EmailSidebar from '@/pages/admin/apps/email/components/EmailSidebar.vue'
+import EmailRead from '@/pages/admin/apps/email/components/EmailRead.vue'
+import {emailData, emailTabs} from '@/pages/admin/apps/email/components/data'
 
 const showEmailSidebar = ref(false)
 

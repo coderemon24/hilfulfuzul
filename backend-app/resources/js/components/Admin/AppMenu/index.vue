@@ -12,8 +12,8 @@
 
 <script setup lang="ts">
 import type { MenuItemType } from '@/types/menu';
-import MenuItemWithChildren from '@/components/AppMenu/MenuItemWithChildren.vue';
-import MenuItem from '@/components/AppMenu/MenuItem.vue';
+import MenuItemWithChildren from '@/components/Admin/AppMenu/MenuItemWithChildren.vue';
+import MenuItem from '@/components/Admin/AppMenu/MenuItem.vue';
 
 type AppMenuProps = {
   menuItems: Array<MenuItemType>;

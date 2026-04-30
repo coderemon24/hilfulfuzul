@@ -286,15 +286,15 @@ import {
 
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
 
-import smallImg1 from '@/assets/images/small/img-1.jpg'
-import smallImg2 from '@/assets/images/small/img-2.jpg'
-import smallImg3 from '@/assets/images/small/img-3.jpg'
-import smallImg4 from '@/assets/images/small/img-4.jpg'
-import smallImg5 from '@/assets/images/small/img-5.jpg'
-import smallImg6 from '@/assets/images/small/img-6.jpg'
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import smallImg1 from '@/assets/admin/images/small/img-1.jpg'
+import smallImg2 from '@/assets/admin/images/small/img-2.jpg'
+import smallImg3 from '@/assets/admin/images/small/img-3.jpg'
+import smallImg4 from '@/assets/admin/images/small/img-4.jpg'
+import smallImg5 from '@/assets/admin/images/small/img-5.jpg'
+import smallImg6 from '@/assets/admin/images/small/img-6.jpg'
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 const anchorNavigation = [
   {

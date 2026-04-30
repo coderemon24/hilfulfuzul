@@ -72,8 +72,8 @@
 <script setup lang="ts">
 import simplebar from 'simplebar-vue'
 
-import smallImg1 from '@/assets/images/small/img-1.jpg'
-import smallImg2 from '@/assets/images/small/img-2.jpg'
-import smallImg3 from '@/assets/images/small/img-3.jpg'
-import avatar4 from '@/assets/images/users/avatar-4.jpg'
+import smallImg1 from '@/assets/admin/images/small/img-1.jpg'
+import smallImg2 from '@/assets/admin/images/small/img-2.jpg'
+import smallImg3 from '@/assets/admin/images/small/img-3.jpg'
+import avatar4 from '@/assets/admin/images/users/avatar-4.jpg'
 </script>

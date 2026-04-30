@@ -9,6 +9,6 @@
 </template>
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import IntegrationCard from '@/views/apps/calendar/integration/components/IntegrationCard.vue';
-import { integrationData } from '@/views/apps/calendar/integration/components/data'
+import IntegrationCard from '@/pages/admin/apps/calendar/integration/components/IntegrationCard.vue';
+import { integrationData } from '@/pages/admin/apps/calendar/integration/components/data'
 </script>

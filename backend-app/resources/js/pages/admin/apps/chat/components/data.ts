@@ -1,18 +1,18 @@
-import smallImg1 from '@/assets/images/small/img-1.jpg'
-import smallImg2 from '@/assets/images/small/img-2.jpg'
-import smallImg3 from '@/assets/images/small/img-3.jpg'
+import smallImg1 from '@/assets/admin/images/small/img-1.jpg'
+import smallImg2 from '@/assets/admin/images/small/img-2.jpg'
+import smallImg3 from '@/assets/admin/images/small/img-3.jpg'
 
-import avatar2 from '@/assets/images/users/avatar-2.jpg'
-import avatar3 from '@/assets/images/users/avatar-3.jpg'
-import avatar4 from '@/assets/images/users/avatar-4.jpg'
-import avatar5 from '@/assets/images/users/avatar-5.jpg'
-import avatar6 from '@/assets/images/users/avatar-6.jpg'
-import avatar7 from '@/assets/images/users/avatar-7.jpg'
-import avatar8 from '@/assets/images/users/avatar-8.jpg'
-import avatar9 from '@/assets/images/users/avatar-9.jpg'
-import avatar10 from '@/assets/images/users/avatar-10.jpg'
+import avatar2 from '@/assets/admin/images/users/avatar-2.jpg'
+import avatar3 from '@/assets/admin/images/users/avatar-3.jpg'
+import avatar4 from '@/assets/admin/images/users/avatar-4.jpg'
+import avatar5 from '@/assets/admin/images/users/avatar-5.jpg'
+import avatar6 from '@/assets/admin/images/users/avatar-6.jpg'
+import avatar7 from '@/assets/admin/images/users/avatar-7.jpg'
+import avatar8 from '@/assets/admin/images/users/avatar-8.jpg'
+import avatar9 from '@/assets/admin/images/users/avatar-9.jpg'
+import avatar10 from '@/assets/admin/images/users/avatar-10.jpg'
 
-import type { ChatMsgType, ContactType, DropdownItemType, GroupType, UserContactType } from '@/views/apps/chat/components/types'
+import type { ChatMsgType, ContactType, DropdownItemType, GroupType, UserContactType } from '@/pages/admin/apps/chat/components/types'
 
 export const chatMsg: ChatMsgType[] = [
   {

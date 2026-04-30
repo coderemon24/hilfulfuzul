@@ -13,9 +13,9 @@
 </template>
 
 <script setup lang="ts">
-import logoSmall from "@/assets/images/logo-sm.png";
-import logoDark from "@/assets/images/logo-dark.png";
-import logoLight from "@/assets/images/logo-light.png";
+import logoSmall from "@/assets/admin/images/logo-sm.png";
+import logoDark from "@/assets/admin/images/logo-dark.png";
+import logoLight from "@/assets/admin/images/logo-light.png";
 
 type PropsType = {
   customClass?: string;

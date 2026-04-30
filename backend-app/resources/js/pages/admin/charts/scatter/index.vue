@@ -31,10 +31,10 @@
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
-import ApexChart from '@/components/ApexChart.vue'
-import UIComponentCard from '@/components/UIComponentCard.vue'
-import {scatterXYChart, dateTimeChart, scatterWithImagesChart} from '@/views/charts/scatter/data'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
+import ApexChart from '@/components/Admin/ApexChart.vue'
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue'
+import {scatterXYChart, dateTimeChart, scatterWithImagesChart} from '@/pages/admin/charts/scatter/data'
 
 const anchorNavigation = [
   {

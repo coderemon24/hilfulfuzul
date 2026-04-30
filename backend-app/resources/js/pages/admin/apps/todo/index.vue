@@ -103,8 +103,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import { kebabToTitleCase, toSentenceCase } from '@/helpers/change-casing';
-import { todosData } from '@/views/apps/todo/components/data';
+// import { kebabToTitleCase, toSentenceCase } from '@/helpers/change-casing';
+import { todosData } from '@/pages/admin/apps/todo/components/data';
 
 const perPageItem = ref(5);
 const currentPage = ref(1);

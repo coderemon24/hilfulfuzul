@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 import type { PropType } from 'vue'
-import type { IntegrationType } from '@/views/apps/calendar/integration/components/types'
+import type { IntegrationType } from '@/pages/admin/apps/calendar/integration/components/types'
 
 defineProps({
   integration: {

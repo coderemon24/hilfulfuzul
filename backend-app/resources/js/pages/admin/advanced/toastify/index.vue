@@ -96,11 +96,11 @@
 
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
 
 import { toast, type ToastOptions } from 'vue3-toastify';
 import 'vue3-toastify/dist/index.css';
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 const anchorNavigation = [
   {

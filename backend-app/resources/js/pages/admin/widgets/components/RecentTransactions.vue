@@ -28,6 +28,6 @@
 
 <script setup lang="ts">
 import simplebar from 'simplebar-vue'
-import { recentTransaction } from '@/views/widgets/components/data'
+import { recentTransaction } from '@/pages/admin/widgets/components/data'
 import { toSentenceCase } from '@/helpers/change-casing'
 </script>

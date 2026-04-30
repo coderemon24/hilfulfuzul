@@ -43,5 +43,5 @@
 
 <script setup lang="ts">
 import simplebar from 'simplebar-vue'
-import { recentProjectsSummaryTableData } from '@/views/widgets/components/data'
+import { recentProjectsSummaryTableData } from '@/pages/admin/widgets/components/data'
 </script>

@@ -95,5 +95,5 @@
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 import { currency } from '@/helpers/constants';
 import { toSentenceCase } from '@/helpers/change-casing';
-import { invoiceList } from '@/views/apps/invoices/components/data';
+import { invoiceList } from '@/pages/admin/apps/invoices/components/data';
 </script>

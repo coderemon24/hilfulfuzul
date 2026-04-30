@@ -47,11 +47,11 @@
 <script setup lang="ts">
 import { onMounted } from 'vue';
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
 
 import Swal from 'sweetalert2/dist/sweetalert2.js';
 import 'sweetalert2/dist/sweetalert2.css';
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 type TVueSwalInstance = typeof Swal & typeof Swal.fire;
 

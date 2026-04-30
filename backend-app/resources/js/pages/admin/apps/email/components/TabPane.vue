@@ -30,7 +30,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import MailCard from '@/views/apps/email/components/MailCard.vue'
+import MailCard from '@/pages/admin/apps/email/components/MailCard.vue'
 
 defineProps(['tab', 'filteredMails', 'showTab', 'toggleReadOffcanvas'])
 </script>

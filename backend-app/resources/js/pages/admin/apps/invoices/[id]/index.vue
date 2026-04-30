@@ -118,7 +118,7 @@
 </template>
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import logoDark from '@/assets/images/logo-dark-full.png';
-import logoLight from '@/assets/images/logo-light-full.png';
+import logoDark from '@/assets/admin/images/logo-dark-full.png';
+import logoLight from '@/assets/admin/images/logo-light-full.png';
 import { currency } from '@/helpers/constants';
 </script>

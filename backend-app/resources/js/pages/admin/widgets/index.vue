@@ -96,14 +96,14 @@
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 import ApexChart from '@/components/Admin/ApexChart.vue';
-import StatisticsCard1 from '@/views/widgets/components/StatisticsCard1.vue';
-import StatisticsCard2 from '@/views/widgets/components/StatisticsCard2.vue';
-import StatisticsCard3 from '@/views/widgets/components/StatisticsCard3.vue';
-import ProjectSummary from '@/views/widgets/components/ProjectSummary.vue';
-import Schedule from '@/views/widgets/components/Schedule.vue';
-import Tasks from '@/views/widgets/components/Tasks.vue';
-import FriendRequests from '@/views/widgets/components/FriendRequests.vue';
-import RecentTransactions from '@/views/widgets/components/RecentTransactions.vue';
+import StatisticsCard1 from '@/pages/admin/widgets/components/StatisticsCard1.vue';
+import StatisticsCard2 from '@/pages/admin/widgets/components/StatisticsCard2.vue';
+import StatisticsCard3 from '@/pages/admin/widgets/components/StatisticsCard3.vue';
+import ProjectSummary from '@/pages/admin/widgets/components/ProjectSummary.vue';
+import Schedule from '@/pages/admin/widgets/components/Schedule.vue';
+import Tasks from '@/pages/admin/widgets/components/Tasks.vue';
+import FriendRequests from '@/pages/admin/widgets/components/FriendRequests.vue';
+import RecentTransactions from '@/pages/admin/widgets/components/RecentTransactions.vue';
 
 import {
   statistics1,
@@ -111,7 +111,7 @@ import {
   statistics3,
   conversionsChart,
   performanceChart
-} from '@/views/widgets/components/data';
+} from '@/pages/admin/widgets/components/data';
 
 import { ref } from 'vue';
 

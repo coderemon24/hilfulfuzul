@@ -13,7 +13,7 @@
 <script setup lang="ts">
 import type { SubMenus } from '@/types/menu'
 import { Icon } from '@iconify/vue'
-import router from '@/router'
+// import router from '@/router'
 
 defineProps<SubMenus>()
 

@@ -1,4 +1,4 @@
-import type { EmailType, NavLinkType } from '@/views/apps/email/components/types'
+import type { EmailType, NavLinkType } from '@/pages/admin/apps/email/components/types'
 
 export const emailData: EmailType[] = [
   {

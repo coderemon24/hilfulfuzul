@@ -69,14 +69,14 @@ import { required, email } from '@vuelidate/validators';
 import { useVuelidate } from '@vuelidate/core';
 
 import { ref, reactive, computed } from 'vue';
-import { useRoute } from 'vue-router';
+// import { useRoute } from 'vue-router';
 
 import HttpClient from '@/helpers/http-client';
-import { useAuthStore } from '@/stores/auth';
+// import { useAuthStore } from '@/stores/auth';
 
-import type { AxiosResponse } from 'axios';
+// import type { AxiosResponse } from 'axios';
 import type { User } from '@/types/auth';
-import router from '@/router';
+// import router from '@/router';
 
 const credentials = reactive({
   email: 'user@email.com',

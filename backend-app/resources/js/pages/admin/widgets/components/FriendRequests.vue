@@ -37,6 +37,6 @@
 
 <script setup lang="ts">
 import simplebar from 'simplebar-vue'
-import DropDown from '@/components/DropDown.vue'
-import { friendRequests } from '@/views/widgets/components/data'
+import DropDown from '@/components/Admin/DropDown.vue'
+import { friendRequests } from '@/pages/admin/widgets/components/data'
 </script>

@@ -55,12 +55,12 @@
 import simplebar from 'simplebar-vue'
 import { QuillEditor } from '@vueup/vue-quill'
 
-import smallImg1 from '@/assets/images/small/img-1.jpg'
-import smallImg2 from '@/assets/images/small/img-2.jpg'
-import smallImg3 from '@/assets/images/small/img-3.jpg'
+import smallImg1 from '@/assets/admin/images/small/img-1.jpg'
+import smallImg2 from '@/assets/admin/images/small/img-2.jpg'
+import smallImg3 from '@/assets/admin/images/small/img-3.jpg'
 
-import avatar2 from '@/assets/images/users/avatar-2.jpg'
-import avatar7 from '@/assets/images/users/avatar-7.jpg'
+import avatar2 from '@/assets/admin/images/users/avatar-2.jpg'
+import avatar7 from '@/assets/admin/images/users/avatar-7.jpg'
 
 const toolbar = [[{ font: [] }, { size: [] }], ['bold', 'italic', 'underline', 'strike'], [{ color: [] }, { background: [] }], [{ script: 'super' }, { script: 'sub' }], [{ header: [false, 1, 2, 3, 4, 5, 6] }, 'blockquote', 'code-block'], [{ list: 'ordered' }, { list: 'bullet' }, { indent: '-1' }, { indent: '+1' }], ['direction', { align: [] }], ['link', 'image', 'video'], ['clean']]
 
