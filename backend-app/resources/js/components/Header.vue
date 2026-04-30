@@ -168,31 +168,31 @@ import { ref } from 'vue'
 import { Link, usePage } from '@inertiajs/vue3'
 
 const activeClass = `
-before:content-['']
-before:absolute 
-before:w-full 
-before:h-1 
-md:before:bg-white 
-before:bg-transparent
-before:-bottom-2 
-before:left-0 
-before:rounded-t-3xl
-bg-green-700
-text-white
-md:bg-transparent
-md:text-white
-rounded-md
-transition-all duration-300
+    before:content-['']
+    before:absolute 
+    before:w-full 
+    before:h-1 
+    md:before:bg-white 
+    before:bg-transparent
+    before:-bottom-2 
+    before:left-0 
+    before:rounded-t-3xl
+    bg-green-700
+    text-white
+    md:bg-transparent
+    md:text-white
+    rounded-md
+    transition-all duration-300
 `;
 
 const inactiveClass = `
-hover:bg-green-700 
-hover:text-white 
-md:hover:bg-green-100/20 
-md:hover:text-white
-transition-colors duration-300 rounded-md
-bg-green-100/40
-md:bg-transparent
+    hover:bg-green-700 
+    hover:text-white 
+    md:hover:bg-green-100/20 
+    md:hover:text-white
+    transition-colors duration-300 rounded-md
+    bg-green-100/40
+    md:bg-transparent
 `;
 
 const isOpen = ref(false)
