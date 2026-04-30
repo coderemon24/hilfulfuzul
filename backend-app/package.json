@@ -10,7 +10,7 @@
         "@tailwindcss/postcss": "^4.2.4",
         "@tailwindcss/vite": "^4.2.4",
         "autoprefixer": "^10.5.0",
-        "axios": "^1.11.0",
+        "axios": "^1.15.2",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^2.0.0",
         "postcss": "^8.5.12",
@@ -21,13 +21,18 @@
         "@fancyapps/ui": "^6.1.13",
         "@inertiajs/vite": "^3.0.3",
         "@inertiajs/vue3": "^3.0.3",
+        "@popperjs/core": "^2.11.8",
         "@unhead/vue": "^3.1.0",
         "@vitejs/plugin-vue": "^6.0.6",
         "@vueuse/head": "^2.0.0",
+        "apexcharts": "^5.10.6",
+        "bootstrap": "^5.3.8",
         "lodash": "^4.18.1",
         "nuxt": "^4.4.2",
+        "sweetalert2": "^11.26.24",
         "vue": "^3.5.33",
         "vue-flux": "^7.1.2",
+        "vue3-apexcharts": "^1.11.1",
         "vue3-carousel": "^0.17.0"
     }
 }
