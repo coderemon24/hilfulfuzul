@@ -49,7 +49,7 @@
 import {onMounted} from 'vue'
 import Dropzone from 'dropzone'
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 onMounted(() => {
   const dropzonePreviewNode = document.querySelector('#dropzone-preview-list') as HTMLElement

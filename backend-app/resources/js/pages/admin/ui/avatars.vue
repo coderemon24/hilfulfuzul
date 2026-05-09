@@ -4,7 +4,7 @@
       <b-col xl="9">
         <b-card no-body>
           <b-card-body>
-            <b-card-title tag="h5" class="mb-1 anchor" id="basic-example"> Basic Example 
+            <b-card-title tag="h5" class="mb-1 anchor" id="basic-example"> Basic Example
               <a class="anchor-link" href="#basic-example">#</a>
             </b-card-title>
 
@@ -45,7 +45,7 @@
 
         <b-card no-body>
           <b-card-body>
-            <b-card-title tag="h5" class="mb-1 anchor" id="rounded-circle"> Rounded Circle 
+            <b-card-title tag="h5" class="mb-1 anchor" id="rounded-circle"> Rounded Circle
               <a class="anchor-link" href="#rounded-circle">#</a>
             </b-card-title>
 
@@ -131,19 +131,19 @@
 <script lang="ts" setup>
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
 
-import avatar2 from '@/assets/images/users/avatar-2.jpg';
-import avatar3 from '@/assets/images/users/avatar-3.jpg';
-import avatar4 from '@/assets/images/users/avatar-4.jpg';
-import avatar5 from '@/assets/images/users/avatar-5.jpg';
-import avatar6 from '@/assets/images/users/avatar-6.jpg';
-import avatar7 from '@/assets/images/users/avatar-7.jpg';
-import avatar8 from '@/assets/images/users/avatar-8.jpg';
-import avatar9 from '@/assets/images/users/avatar-9.jpg';
+import avatar2 from '@/assets/admin/images/users/avatar-2.jpg';
+import avatar3 from '@/assets/admin/images/users/avatar-3.jpg';
+import avatar4 from '@/assets/admin/images/users/avatar-4.jpg';
+import avatar5 from '@/assets/admin/images/users/avatar-5.jpg';
+import avatar6 from '@/assets/admin/images/users/avatar-6.jpg';
+import avatar7 from '@/assets/admin/images/users/avatar-7.jpg';
+import avatar8 from '@/assets/admin/images/users/avatar-8.jpg';
+import avatar9 from '@/assets/admin/images/users/avatar-9.jpg';
 
-import smallImg2 from '@/assets/images/small/img-2.jpg';
-import smallImg3 from '@/assets/images/small/img-3.jpg';
+import smallImg2 from '@/assets/admin/images/small/img-2.jpg';
+import smallImg3 from '@/assets/admin/images/small/img-3.jpg';
 
 const anchorNavigation = [
   {

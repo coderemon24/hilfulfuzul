@@ -31,5 +31,5 @@
 </template>
 <script setup lang="ts">
 import AuthLayout from '@/layouts/AuthLayout.vue';
-import images404 from '@/assets/images/404.svg';
+import images404 from '@/assets/admin/images/404.svg';
 </script>

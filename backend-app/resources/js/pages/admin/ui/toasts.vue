@@ -181,12 +181,12 @@
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
-import UIComponentCard from '@/components/UIComponentCard.vue';
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue';
 
 import { Toast } from 'bootstrap';
-import logoDark from '@/assets/images/logo-dark.png';
-import logoLight from '@/assets/images/logo-light.png';
+import logoDark from '@/assets/admin/images/logo-dark.png';
+import logoLight from '@/assets/admin/images/logo-light.png';
 
 import { ref, onMounted } from 'vue';
 

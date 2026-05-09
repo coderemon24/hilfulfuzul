@@ -380,9 +380,9 @@
 
 <script lang="ts" setup>
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
-import UIComponentCard from '@/components/UIComponentCard.vue'
-import DropDown from '@/components/DropDown.vue'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue'
+import DropDown from '@/components/Admin/DropDown.vue'
 
 const anchorNavigation = [
   {

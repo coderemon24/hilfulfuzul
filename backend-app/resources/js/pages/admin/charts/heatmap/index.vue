@@ -36,10 +36,10 @@
 
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
 
-import ApexChart from '@/components/ApexChart.vue'
-import UIComponentCard from '@/components/UIComponentCard.vue'
+import ApexChart from '@/components/Admin/ApexChart.vue'
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue'
 import {basicHeatmap, multipleHeatmap, colorRangeHeatmap, rangeWithoutShade} from '@/views/charts/heatmap/data'
 
 const anchorNavigation = [

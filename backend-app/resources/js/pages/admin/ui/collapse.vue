@@ -4,7 +4,7 @@
       <b-col xl="9">
         <UIComponentCard title="Default Example" id="default">
           <div class="hstack gap-2 mt-3">
-            <b-button variant="primary" class="mb-2" v-b-toggle.collapseExample aria-controls="collapseExample"> 
+            <b-button variant="primary" class="mb-2" v-b-toggle.collapseExample aria-controls="collapseExample">
               Link with href
             </b-button>
             <b-button variant="primary" class="mb-2" v-b-toggle.collapseExample aria-controls="collapseExample">
@@ -70,8 +70,8 @@
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
-import UIComponentCard from '@/components/UIComponentCard.vue';
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue';
 
 const anchorNavigation = [
   {

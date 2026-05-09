@@ -175,12 +175,12 @@
 </template>
 
 <script setup lang="ts">
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
-import ChoicesInput from '@/components/ChoicesInput.vue';
-import ChoicesSelect from '@/components/ChoicesSelect.vue';
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
+import ChoicesInput from '@/components/Admin/ChoicesInput.vue';
+import ChoicesSelect from '@/components/Admin/ChoicesSelect.vue';
 import { ref } from 'vue';
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 const anchorNavigation = [
   {

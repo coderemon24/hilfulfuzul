@@ -419,9 +419,9 @@
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 
 
-import smallImg1 from '@/assets/images/small/img-1.jpg'
-import smallImg2 from '@/assets/images/small/img-2.jpg'
-import smallImg3 from '@/assets/images/small/img-3.jpg'
-import smallImg4 from '@/assets/images/small/img-4.jpg'
-import smallImg5 from '@/assets/images/small/img-5.jpg'
+import smallImg1 from '@/assets/admin/images/small/img-1.jpg'
+import smallImg2 from '@/assets/admin/images/small/img-2.jpg'
+import smallImg3 from '@/assets/admin/images/small/img-3.jpg'
+import smallImg4 from '@/assets/admin/images/small/img-4.jpg'
+import smallImg5 from '@/assets/admin/images/small/img-5.jpg'
 </script>

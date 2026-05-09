@@ -51,7 +51,7 @@
 
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
 import {copyText} from 'vue3-clipboard'
 import {ref} from 'vue'
 import UIComponentCard from "@/components/UIComponentCard.vue";

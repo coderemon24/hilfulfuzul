@@ -21,7 +21,7 @@
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
 import { QuillEditor } from '@vueup/vue-quill';
 import { ref } from 'vue';
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 const content = ref('');
 

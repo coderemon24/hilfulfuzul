@@ -289,14 +289,14 @@
 
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 import { ref } from 'vue';
 
 import { FormWizard, TabContent } from 'vue3-form-wizard';
 import 'vue3-form-wizard/dist/style.css';
 
-import dummyAvatar from '@/assets/images/users/dummy-avatar.jpg';
+import dummyAvatar from '@/assets/admin/images/users/dummy-avatar.jpg';
 import { Icon } from "@iconify/vue";
 
 const selectedCountry = ref('United States');

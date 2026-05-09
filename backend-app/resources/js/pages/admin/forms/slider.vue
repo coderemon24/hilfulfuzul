@@ -79,8 +79,8 @@ import noUiSlider from 'nouislider';
 import type { Options } from 'nouislider';
 import wNumb from 'wnumb';
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import AnchorNavigation from '@/components/AnchorNavigation.vue';
-import UIComponentCard from "@/components/UIComponentCard.vue";
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue';
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
 
 onMounted(() => {
   // Basic

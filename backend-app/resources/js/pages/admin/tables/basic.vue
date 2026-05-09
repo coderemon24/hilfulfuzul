@@ -918,16 +918,16 @@
 
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import UIComponentCard from '@/components/UIComponentCard.vue'
-import AnchorNavigation from '@/components/AnchorNavigation.vue'
+import UIComponentCard from '@/components/Admin/UIComponentCard.vue'
+import AnchorNavigation from '@/components/Admin/AnchorNavigation.vue'
 import { currency } from "@/helpers/constants";
 
-import avatar1 from '@/assets/images/users/avatar-1.jpg'
-import avatar2 from '@/assets/images/users/avatar-2.jpg'
-import avatar4 from '@/assets/images/users/avatar-4.jpg'
-import avatar6 from '@/assets/images/users/avatar-6.jpg'
-import avatar7 from '@/assets/images/users/avatar-7.jpg'
-import avatar8 from '@/assets/images/users/avatar-8.jpg'
+import avatar1 from '@/assets/admin/images/users/avatar-1.jpg'
+import avatar2 from '@/assets/admin/images/users/avatar-2.jpg'
+import avatar4 from '@/assets/admin/images/users/avatar-4.jpg'
+import avatar6 from '@/assets/admin/images/users/avatar-6.jpg'
+import avatar7 from '@/assets/admin/images/users/avatar-7.jpg'
+import avatar8 from '@/assets/admin/images/users/avatar-8.jpg'
 
 const tableData = {
   head: ['#', 'First', 'Last', 'Handle'],

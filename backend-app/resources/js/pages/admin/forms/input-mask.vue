@@ -94,6 +94,6 @@
 
 <script setup lang="ts">
 import VerticalLayout from "@/layouts/VerticalLayout.vue";
-import UIComponentCard from "@/components/UIComponentCard.vue";
-import InputMask from '@/components/InputMask.vue'
+import UIComponentCard from "@/components/Admin/UIComponentCard.vue";
+import InputMask from '@/components/Admin/InputMask.vue'
 </script>

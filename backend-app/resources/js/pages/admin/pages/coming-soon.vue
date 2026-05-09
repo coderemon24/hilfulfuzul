@@ -37,7 +37,7 @@
 import { ref, onMounted } from "vue";
 import AuthLayout from '@/layouts/AuthLayout.vue';
 
-import LogoBox from '@/components/LogoBox.vue';
+import LogoBox from '@/components/admin/LogoBox.vue';
 
 const currentDate = new Date();
 const countDown = currentDate.setDate(currentDate.getDate() + 5);
