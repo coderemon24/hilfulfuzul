@@ -12,3 +12,5 @@ Route::get("/our-works", [FrontendController::class, "ourWorksPage"])->name("our
 Route::get("/volunteer-registration", [FrontendController::class, "volunteerRegistrationPage"])->name("volunteer-registration");
 Route::get("/gallery", [FrontendController::class, "galleryPage"])->name("gallery");
 Route::get("/recent-news", [FrontendController::class, "recentNewsPage"])->name("recent-news");
+
+

@@ -5,7 +5,6 @@ import inertia from '@inertiajs/vite';
 import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
-    cacheDir: '/tmp/hilful-fuzul-vite',
     plugins: [
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
