@@ -66,7 +66,7 @@
                                     <div class="row mb-4">
                                         <div class="col">
                                             <div class="form-check">
-                                                <input class="form-check-input" name="remember_token" value="1" type="checkbox" id="remember-check">
+                                                <input class="form-check-input" name="remember" value="1" type="checkbox" id="remember-check">
                                                 <label class="form-check-label" for="remember-check">
                                                     Remember me
                                                 </label>

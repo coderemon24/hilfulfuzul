@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\Admin\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Models\Admin;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+
 class AuthController extends Controller
 {
     public function showLoginForm()
@@ -16,7 +19,7 @@ class AuthController extends Controller
         $request->validate([
            'username' => 'required|string|min:3|max:255',
            'password' => 'required|string|min:6',
-           'remember_token' => 'nullable|boolean',
+           'remember' => 'nullable|boolean',
         ]);
 
         $login_type = filter_var($request->username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
@@ -26,7 +29,7 @@ class AuthController extends Controller
             'password' => $request->password
         ];
 
-        if (auth()->guard('admin')->attempt($credentials, $request->remember_token))
+        if (auth()->guard('admin')->attempt($credentials, $request->remember))
         {
             $request->session()->regenerate();
             return redirect()->intended(route('admin.index'));
@@ -34,6 +37,23 @@ class AuthController extends Controller
 
         return back()->with('error', 'Invalid credentials.')->onlyInput('username');
 
+    }
+
+    public function logout(Request $request)
+    {
+        $id = Auth::guard('admin')->user()->id;
+        $admin = Admin::findOrFail($id);
+        if ($admin) {
+            $admin->remember_token = null;
+            $admin->save();
+        }
+
+        auth()->guard('admin')->logout();
+
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+
+        return redirect()->route('admin.login');
     }
 
 }
