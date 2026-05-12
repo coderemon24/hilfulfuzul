@@ -9,7 +9,7 @@
                         <div class="d-flex flex-column h-100">
                             <div class="mb-4 mb-md-5 text-center">
                                 <a href="index.html" class="d-block auth-logo">
-                                    <img src="assets/images/logo-sm.svg" alt="" height="28"> <span
+                                    <img src="{{ asset('admin-assets') }}/images/logo-sm.svg" alt="" height="28"> <span
                                         class="logo-txt">Minia</span>
                                 </a>
                             </div>
@@ -18,11 +18,22 @@
                                     <h5 class="mb-0">Welcome Back !</h5>
                                     <p class="text-muted mt-2">Sign in to continue to {{ config('app.name') }}.</p>
                                 </div>
-                                <form class="mt-4 pt-2" action="index.html">
+                                <form action="{{ route('admin.login.submit') }}" method="POST" class="mt-4 pt-2">
+                                    @csrf
                                     <div class="mb-3">
                                         <label class="form-label">Username</label>
-                                        <input type="text" class="form-control" id="username"
-                                            placeholder="Enter username">
+                                        <input type="text" name="username" class="form-control @if(session()->has('error')) is-invalid @endif @error('username') is-invalid @enderror" value="{{ old('username') }}" id="username"
+                                            placeholder="Email or Username">
+                                        @error('username')
+                                            <div class="invalid-feedback">
+                                                {{ $message }}
+                                            </div>
+                                        @enderror
+                                        @if(session()->has('error'))
+                                            <div class="invalid-feedback">
+                                                {{ session()->get('error') }}
+                                            </div>
+                                        @endif
                                     </div>
                                     <div class="mb-3">
                                         <div class="d-flex align-items-start">
@@ -38,16 +49,24 @@
                                         </div>
 
                                         <div class="input-group auth-pass-inputgroup">
-                                            <input type="password" class="form-control" placeholder="Enter password"
+                                            <input type="password" name="password" class="form-control @if(session()->has('error')) is-invalid @endif @error('password') is-invalid @enderror" id="password" placeholder="Enter password"
                                                 aria-label="Password" aria-describedby="password-addon">
                                             <button class="btn btn-light shadow-none ms-0" type="button"
                                                 id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
+
+                                            @error('password')
+                                                <div class="invalid-feedback">
+                                                    {{ $message }}
+                                                </div>
+                                            @enderror
                                         </div>
+
                                     </div>
+
                                     <div class="row mb-4">
                                         <div class="col">
                                             <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" id="remember-check">
+                                                <input class="form-check-input" name="remember_token" value="1" type="checkbox" id="remember-check">
                                                 <label class="form-check-label" for="remember-check">
                                                     Remember me
                                                 </label>
